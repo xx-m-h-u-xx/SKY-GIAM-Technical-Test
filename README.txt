@@ -76,4 +76,3 @@ Due to other commitments, I did not manage to test this on other operating syste
 	(iv) Change into the project's directory & execute main script
 		`cd app`
 		`python  "app.py"`
-
