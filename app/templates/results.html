@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equip="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="">
+        <title> Webform </title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <div class="jumbotron text-center">
+            <h1> Results </h1>
+            <p> Here are the results!</p> 
+        </div>
+
+        <div class="mx-auto">
+            <h2> Ooh Well Hello, <strong><i> {{input_name}} </i></strong> </h2>
+            <p> This is your name submitted from the Webform page</p>
+            
+            <h3> Flask WSGI </h3>
+            <p> Using Python's Flask, I made a simple web server gateway interface to run my programmed Python web application.
+                This communicates with the client (user) requests back and forth with the backend (.py) script file. I chose Flask due to its simplicty, lightweight framework
+                and how it results in a very structured clean piece of code - not having to follow nor adhere to strict convention. 
+            </p>
+
+            <h3> Automated Performance Monitoring </h3>
+            <p> After researching few other performance metric frameworks, I chosen Prometheus as the monitoring module.
+                This was mainly because getting informative insights were efficently straightforward. Since it would me to view
+                how the web services were operating in my local development server, they are configured minimally with a few lines of codes. 
+                In the plus side analysis of the performance can be viewed viusally on a diagrammatical graph i.e. Histogram,
+                where you can see illustration of different metrics for different factors:  CPU/RAM; request time, response time
+                Alternate means: `Flask-Performance` (FP) module can also be used to specifically monitor real API requests and retrieve accurate, real-time
+                performance on-the-go, on-the-fly. Adding two lines of code using the FP module and generating a DSN (data source name) externally online, 
+                allows the DSN URL website to check this program's API performance in an asynchronous way
+            </p>
+        </div> 
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </body>
+</html>
