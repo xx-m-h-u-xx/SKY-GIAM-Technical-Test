@@ -1,22 +1,21 @@
-=========================================================== 
-SKY GIAM Junior Performance Engineer - Technical Test
-README Documentation
-===========================================================
+# SKY GIAM Junior Performance Engineer - Technical Test
+# README Documentation
+
 @script : main.py 
 @author : Mohammed Healal Uddin
 @language: Python 3.9.1
 
 
-=== Description ===
+## Description
 PrometheusMetric module was implemented as there were a lot of documentations about this module online. Along with default metrics resulted from the Prometheus, I could have the option to populate monitoring diagrams to help visualise different performance metrics for factors like: CPU/Memory/Disk usage, tasks, long-running processes, as well as Request duration and Response time.
 
 
-Functional Requirements:
+### Functional Requirements:
 - App should allow a user to submit a string text input 
 - App should allow a response page to be displayed on-screen containing text input
 
 
-Non-Functional Requirements:
+### Non-Functional Requirements:
 - App should summarises informational stats (onto histogram graph for visible observations is advantageous)
 - App show allow insights into troubleshooting performance factors for the site
 - Consideration: metric observations/info needs to associate with specific HTTP endpoint
@@ -29,7 +28,7 @@ Non-Functional Requirements:
 	- Should a site track/report request latency
 
 
-=== Prerequisites ===
+## Prerequisites
 
 i)   Please ensure you have a Python interpreter installed on your system
 https://www.python.org/downloads/
@@ -46,7 +45,7 @@ Due to other commitments, I did not manage to test this on other operating syste
 
 
 
-=== Instructions ===
+## Instructions
 
 (1) Begin by unzipping the folder
 - "SKY-GIAM-Technical-Test"
